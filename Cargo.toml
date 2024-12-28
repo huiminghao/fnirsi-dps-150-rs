@@ -1,0 +1,10 @@
+[package]
+name = "dps150"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0"
+tokio = { version = "1.0", features = ["full"] }
+tokio-util = "0.7"
+tokio-serial = "5.4"
